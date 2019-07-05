@@ -6,7 +6,6 @@ module.exports = function makeExchange(currency)
 	var array=[,,,,];
 	result=new Object();
 	result={}; 
-	var ind=0;
 		if(currency>10000)
 		{
 			return {error: "You are rich, my friend! We don't have so much coins for exchange"};
